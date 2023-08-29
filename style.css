@@ -27,6 +27,7 @@ nav ul li{
 .brand img{
     width: 44px;
     padding: 0 8px;
+    border-radius: 25px 7px;
 }
 .brand{
     display: flex;
