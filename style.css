@@ -38,10 +38,19 @@ nav ul li{
 }
 
 .container{
-    min-height: 75vh;
+    min-height: 72vh;
     background-color: black;
-    color: wheat;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(BG1.jpg);
+    background-size: cover; 
+    
+    
 }
 
 .bottom{
@@ -69,4 +78,25 @@ nav ul li{
     cursor: pointer;
 }
 
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: transparent;
+    width: 80%;
+    color: white;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 21px;
+}
+
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
